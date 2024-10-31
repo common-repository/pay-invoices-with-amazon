@@ -1,0 +1,487 @@
+# Copyright (C) 2023 Zeek
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: PIWA 1.2\n"
+"Report-Msgid-Bugs-To: https://github.com/ZeekInteractive/pay-invoices-with-amazon/issues/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-30T05:09:01+00:00\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: piwa\n"
+
+#. Plugin Name of the plugin
+msgid "PIWA"
+msgstr "Paga le fatture con Amazon"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/piwa/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enables a smooth Amazon Pay integration using the WordPress block editor. Accept payments using Amazon Pay, providing a seamless experience for your customers."
+msgstr "Consente un'integrazione fluida di Amazon Pay utilizzando l'editor di blocchi WordPress. Accetta pagamenti utilizzando Amazon Pay, fornendo un'esperienza senza soluzione di continuità per i tuoi clienti."
+
+#. Author of the plugin
+msgid "Zeek"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://zeek.com/"
+msgstr ""
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Block Type"
+msgstr "Tipo di blocco"
+
+msgid "Customer sets price"
+msgstr "Il cliente stabilisce il prezzo"
+
+msgid "Merchant sets price"
+msgstr "Il commerciante stabilisce il prezzo"
+
+msgid "Advanced: Choose in block"
+msgstr "Avanzato: Scegli nel blocco"
+
+msgid "Show Advanced"
+msgstr "Mostra avanzato"
+
+msgid "Customers will input the payment amount."
+msgstr "I clienti inseriranno l'importo del pagamento."
+
+msgid "PIWA is active!"
+msgstr "Paga le fatture con Amazon è attivo!"
+
+msgid "Connect Amazon Account"
+msgstr "Connetti l'account Amazon"
+
+msgid "Configure Manually"
+msgstr "Configura manualmente"
+
+msgid "Something went wrong contacting the payment processor. Please try again later or contact the site administrator."
+msgstr "Si è verificato un errore contattando il processore di pagamento. Riprova più tardi o contatta l'amministratore del sito."
+
+msgid "Enter amount"
+msgstr "Inserisci importo"
+
+msgid "Please enter between @currency_symbol@@min_amount@ and @currency_symbol@@max_amount@."
+msgstr "Inserisci un importo tra @currency_symbol@@min_amount@ e @currency_symbol@@max_amount@."
+
+msgid "Please enter a service title and amount."
+msgstr "Inserisci un titolo di servizio e un importo."
+
+msgid "Please enter a service ID. The shortcode syntax is [piwa-for-services 123], where 123 is the ID of a service."
+msgstr "Inserisci un ID di servizio. La sintassi dello shortcode è [piwa-for-services 123], dove 123 è l'ID di un servizio."
+
+msgid "Please connect your Amazon Pay account in settings."
+msgstr "Si prega di collegare il tuo account Amazon Pay nelle impostazioni."
+
+msgid "Where to find keys and IDs"
+msgstr "Dove trovare chiavi e ID"
+
+msgid "https://pay.amazon.com/help/202022560"
+msgstr ""
+
+msgid "Merchant Account"
+msgstr "Account Commerciante"
+
+msgid "Set by .env"
+msgstr "Impostato da .env"
+
+msgid "Save Settings"
+msgstr "Salva Impostazioni"
+
+msgid "Sandbox Mode"
+msgstr "Modalità Sandbox"
+
+msgid "Enable Sandbox Mode?"
+msgstr "Abilitare la Modalità Sandbox?"
+
+msgid "Public Key ID"
+msgstr "ID Chiave Pubblica"
+
+msgid "Client ID"
+msgstr "ID Client"
+
+msgid "Client Secret"
+msgstr "Segreto del Client"
+
+msgid "Private Key"
+msgstr "Chiave Privata"
+
+msgid "Live Mode"
+msgstr "Modalità Live"
+
+msgid "Merchant ID"
+msgstr "ID Commerciante"
+
+msgid "Access Key"
+msgstr "Chiave di Accesso"
+
+msgid "Secret Key"
+msgstr "Chiave Segreta"
+
+msgid "Connected to Amazon Store ID: "
+msgstr "Connesso all'ID negozio Amazon: "
+
+msgid "Invoice"
+msgstr "Fattura"
+
+msgid "Invoice ID"
+msgstr "ID Fattura"
+
+msgid "Invoice Details"
+msgstr "Dettagli Fattura"
+
+msgid "Store Name"
+msgstr "Nome Negozio"
+
+msgid "Note to Buyer"
+msgstr "Nota all'Acquirente"
+
+msgid "Thank you for your business."
+msgstr "Grazie per il tuo affare."
+
+msgid "This invoice has been paid."
+msgstr "Questa fattura è stata pagata."
+
+msgid "This invoice has been paid %s times."
+msgstr "Questa fattura è stata pagata %s volte."
+
+msgid "Pay"
+msgstr "Paga"
+
+msgid "for"
+msgstr "per"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Copy shortcode to clipboard."
+msgstr "Copia lo shortcode negli appunti."
+
+msgid "Shortcode copied to clipboard."
+msgstr "Codice breve copiato negli appunti."
+
+msgid "Amount"
+msgstr "Importo"
+
+msgid "Price"
+msgstr "Prezzo"
+
+#. translators: %s is the title of the created service.
+msgid "%s created. Please enter an amount."
+msgstr "%s creato. Si prega di inserire un importo."
+
+msgid "Updates price for the service everywhere."
+msgstr "Aggiorna il prezzo per il servizio ovunque."
+
+msgid "Search by title or add a new service."
+msgstr "Cerca per titolo o aggiungi un nuovo servizio."
+
+msgid "Created by Amazon Pay."
+msgstr "Creato da Amazon Pay."
+
+msgid "Customer"
+msgstr "Cliente"
+
+msgid "Region"
+msgstr "Regione"
+
+msgid "US"
+msgstr "US"
+
+msgid "🇺🇸 United States"
+msgstr "🇺🇸 Stati Uniti"
+
+msgid "🇪🇺 European Union"
+msgstr "🇪🇺 Unione Europea"
+
+msgid "🇬🇧 United Kingdom"
+msgstr "🇬🇧 Regno Unito"
+
+msgid "🇯🇵 日本"
+msgstr "🇯🇵 Giappone"
+
+msgid "Ledger Currency"
+msgstr "Valuta del Libro Mastro"
+
+msgid "USD"
+msgstr "USD"
+
+msgid "🇺🇸 $"
+msgstr "🇺🇸 $"
+
+msgid "🇪🇺 €"
+msgstr "🇪🇺 €"
+
+msgid "🇬🇧 £"
+msgstr "🇬🇧 £"
+
+msgid "🇯🇵 ¥"
+msgstr "🇯🇵 ¥"
+
+msgid "Payment Currency"
+msgstr "Valuta di Pagamento"
+
+msgid "🇦🇺 A$"
+msgstr "🇦🇺 A$"
+
+msgid "🇨🇭 CHF"
+msgstr "🇨🇭 CHF"
+
+msgid "🇩🇰 kr"
+msgstr "🇩🇰 kr"
+
+msgid "🇭🇰 HK$"
+msgstr "🇭🇰 HK$"
+
+msgid "🇳🇴 kr"
+msgstr "🇳🇴 kr"
+
+msgid "🇳🇿 NZ$"
+msgstr "🇳🇿 NZ$"
+
+msgid "🇸🇪 kr"
+msgstr "🇸🇪 kr"
+
+msgid "🇿🇦 R"
+msgstr "🇿🇦 R"
+
+msgid "$"
+msgstr "$"
+
+msgid "€"
+msgstr "€"
+
+msgid "£"
+msgstr "£"
+
+msgid "A$"
+msgstr "A$"
+
+msgid "CHF"
+msgstr "CHF"
+
+msgid "kr"
+msgstr "kr"
+
+msgid "HK$"
+msgstr "HK$"
+
+msgid "¥"
+msgstr "¥"
+
+msgid "NZ$"
+msgstr "NZ$"
+
+msgid "R"
+msgstr "R"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "en_US"
+msgstr "en_US"
+
+msgid "🇺🇸 English (US)"
+msgstr "🇺🇸 Inglese (US)"
+
+msgid "🇬🇧 English (UK)"
+msgstr "🇬🇧 Inglese (UK)"
+
+msgid "🇩🇪 Deutsch"
+msgstr "🇩🇪 Tedesco"
+
+msgid "🇫🇷 Français"
+msgstr "🇫🇷 Francese"
+
+msgid "🇮🇹 Italiano"
+msgstr "🇮🇹 Italiano"
+
+msgid "🇪🇸 Español"
+msgstr "🇪🇸 Spagnolo"
+
+msgid "🇯🇵 日本語"
+msgstr "🇯🇵 Giapponese"
+
+msgid "from"
+msgstr "da"
+
+msgid "Service Name..."
+msgstr "Nome del Servizio..."
+
+msgid "Creating \""
+msgstr "Creazione \""
+
+msgid "\"..."
+msgstr "\"..."
+
+msgid "Title"
+msgstr "Titolo"
+
+msgctxt "Post type general name"
+msgid "Services"
+msgstr "Servizi"
+
+msgctxt "Post type singular name"
+msgid "Service"
+msgstr "Servizio"
+
+msgctxt "Admin Menu text"
+msgid "Services"
+msgstr "Servizi"
+
+msgctxt "Add New on Toolbar"
+msgid "Service"
+msgstr "Servizio"
+
+msgid "Parent & Order"
+msgstr "Genitore & Ordine"
+
+msgid "Add New Service"
+msgstr "Aggiungi Nuovo Servizio"
+
+msgid "Service updated"
+msgstr "Servizio aggiornato"
+
+msgid "New Service"
+msgstr "Nuovo Servizio"
+
+msgid "Edit Service"
+msgstr "Modifica Servizio"
+
+msgid "View Service"
+msgstr "Visualizza Servizio"
+
+msgid "All Services"
+msgstr "Tutti i Servizi"
+
+msgid "Search Services"
+msgstr "Cerca Servizi"
+
+msgid "Parent Services:"
+msgstr "Servizi Principali:"
+
+msgid "No services found."
+msgstr "Nessun servizio trovato."
+
+msgid "No services found in Trash."
+msgstr "Nessun servizio trovato nel Cestino."
+
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Service Cover Image"
+msgstr "Immagine di Copertina del Servizio"
+
+msgctxt "Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr "Imposta immagine di copertina"
+
+msgctxt "Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr "Rimuovi immagine di copertina"
+
+msgctxt "Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr "Usa come immagine di copertina"
+
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "Service archives"
+msgstr "Archivi dei Servizi"
+
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into service"
+msgstr "Inserisci nel servizio"
+
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this service"
+msgstr "Caricato in questo servizio"
+
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter services list"
+msgstr "Filtra l'elenco dei servizi"
+
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Services list navigation"
+msgstr "Navigazione nell'elenco dei servizi"
+
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Services list"
+msgstr "Elenco dei Servizi"
+
+msgctxt "Post type general name"
+msgid "Payments"
+msgstr "Pagamenti"
+
+msgctxt "Post type singular name"
+msgid "Payment"
+msgstr "Pagamento"
+
+msgctxt "Admin Menu text"
+msgid "Payments"
+msgstr "Pagamenti"
+
+msgctxt "Add New on Toolbar"
+msgid "Payment"
+msgstr "Pagamento"
+
+msgid "Add New Payment"
+msgstr "Aggiungi Nuovo Pagamento"
+
+msgid "Payment updated"
+msgstr "Pagamento aggiornato"
+
+msgid "New Payment"
+msgstr "Nuovo Pagamento"
+
+msgid "Edit Payment"
+msgstr "Modifica Pagamento"
+
+msgid "View Payment"
+msgstr "Visualizza Pagamento"
+
+msgid "All Payments"
+msgstr "Tutti i Pagamenti"
+
+msgid "Search Payments"
+msgstr "Cerca Pagamenti"
+
+msgid "Parent Payments:"
+msgstr "Pagamenti Principali:"
+
+msgid "No payments found."
+msgstr "Nessun pagamento trovato."
+
+msgid "No payments found in Trash."
+msgstr "Nessun pagamento trovato nel Cestino."
+
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Payment Cover Image"
+msgstr "Immagine di Copertina del Pagamento"
+
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "Payment archives"
+msgstr "Archivi dei Pagamenti"
+
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into payment"
+msgstr "Inserisci nel pagamento"
+
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this payment"
+msgstr "Caricato in questo pagamento"
+
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter payments list"
+msgstr "Filtra l'elenco dei pagamenti"
+
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Payments list navigation"
+msgstr "Navigazione nell'elenco dei pagamenti"
+
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Payments list"
+msgstr "Elenco dei Pagamenti"

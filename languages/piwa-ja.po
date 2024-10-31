@@ -1,0 +1,488 @@
+# Copyright (C) 2023 Zeek
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: PIWA 1.2\n"
+"Report-Msgid-Bugs-To: https://github.com/ZeekInteractive/pay-invoices-with-amazon/issues/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-30T05:09:01+00:00\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: piwa\n"
+
+#. Plugin Name of the plugin
+msgid "PIWA"
+msgstr "Amazonで請求書を支払う"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/piwa/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enables a smooth Amazon Pay integration using the WordPress block editor. Accept payments using Amazon Pay, providing a seamless experience for your customers."
+msgstr "WordPressブロックエディターを使用して、スムーズなAmazon Pay統合を可能にします。 Amazon Payを使用して支払いを受け付け、お客様にシームレスな体験を提供します。"
+
+#. Author of the plugin
+msgid "Zeek"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://zeek.com/"
+msgstr ""
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Block Type"
+msgstr "ブロックタイプ"
+
+msgid "Customer sets price"
+msgstr "顧客が価格を設定"
+
+msgid "Merchant sets price"
+msgstr "販売者が価格を設定"
+
+msgid "Advanced: Choose in block"
+msgstr "高度: ブロック内で選択"
+
+msgid "Show Advanced"
+msgstr "詳細を表示"
+
+msgid "Customers will input the payment amount."
+msgstr "顧客は支払い金額を入力します。"
+
+msgid "PIWA is active!"
+msgstr "Amazonでの請求書の支払いがアクティブです！"
+
+msgid "Connect Amazon Account"
+msgstr "Amazonアカウントを接続する"
+
+msgid "Configure Manually"
+msgstr "手動で設定する"
+
+msgid "Something went wrong contacting the payment processor. Please try again later or contact the site administrator."
+msgstr "支払いプロセッサに問い合わせる際に何か問題が発生しました。後でもう一度試すか、サイト管理者に連絡してください。"
+
+msgid "Enter amount"
+msgstr "金額を入力"
+
+msgid "Please enter between @currency_symbol@@min_amount@ and @currency_symbol@@max_amount@."
+msgstr "@currency_symbol@@min_amount@ と @currency_symbol@@max_amount@ の間の金額を入力してください。"
+
+msgid "Please enter a service title and amount."
+msgstr "サービスのタイトルと金額を入力してください。"
+
+msgid "Please enter a service ID. The shortcode syntax is [piwa 123], where 123 is the ID of a service."
+msgstr "サービスIDを入力してください。ショートコードの構文は[piwa 123]です。123はサービスのIDです。"
+
+msgid "Please connect your Amazon Pay account in settings."
+msgstr "設定でAmazon Payアカウントを接続してください。"
+
+msgid "Where to find keys and IDs"
+msgstr "キーとIDをどこで見つけるか"
+
+msgid "https://pay.amazon.com/help/202022560"
+msgstr ""
+
+msgid "Merchant Account"
+msgstr "加盟店アカウント"
+
+msgid "Set by .env"
+msgstr ".envによって設定"
+
+msgid "Save Settings"
+msgstr "設定を保存"
+
+msgid "Sandbox Mode"
+msgstr "サンドボックスモード"
+
+msgid "Enable Sandbox Mode?"
+msgstr "サンドボックスモードを有効にしますか？"
+
+msgid "Public Key ID"
+msgstr "公開キーID"
+
+msgid "Client ID"
+msgstr "クライアントID"
+
+msgid "Client Secret"
+msgstr "クライアントシークレット"
+
+msgid "Private Key"
+msgstr "秘密鍵"
+
+msgid "Live Mode"
+msgstr "ライブモード"
+
+msgid "Merchant ID"
+msgstr "加盟店ID"
+
+msgid "Access Key"
+msgstr "アクセスキー"
+
+msgid "Secret Key"
+msgstr "秘密キー"
+
+msgid "Connected to Amazon Store ID: "
+msgstr "AmazonストアIDに接続: "
+
+msgid "Invoice"
+msgstr "請求書"
+
+msgid "Invoice ID"
+msgstr "請求書ID"
+
+msgid "Invoice Details"
+msgstr "請求書の詳細"
+
+msgid "Store Name"
+msgstr "店舗名"
+
+msgid "Note to Buyer"
+msgstr "購入者への注意"
+
+msgid "Thank you for your business."
+msgstr "ご利用いただきありがとうございます。"
+
+msgid "This invoice has been paid."
+msgstr "この請求書は支払い済みです。"
+
+#. translators: %s is the number of times an invoice was paid.
+msgid "This invoice has been paid %s times."
+msgstr "この請求書は%s回支払い済みです。"
+
+msgid "Pay"
+msgstr "支払う"
+
+msgid "for"
+msgstr "のために"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Copy shortcode to clipboard."
+msgstr "ショートコードをクリップボードにコピー。"
+
+msgid "Shortcode copied to clipboard."
+msgstr "ショートコードがクリップボードにコピーされました。"
+
+msgid "Amount"
+msgstr "金額"
+
+msgid "Price"
+msgstr "価格"
+
+#. translators: %s is the title of the created service.
+msgid "%s created. Please enter an amount."
+msgstr "%sが作成されました。金額を入力してください。"
+
+msgid "Updates price for the service everywhere."
+msgstr "サービスの価格をどこでも更新します。"
+
+msgid "Search by title or add a new service."
+msgstr "タイトルで検索するか、新しいサービスを追加します。"
+
+msgid "Created by Amazon Pay."
+msgstr "Amazon Payによって作成されました。"
+
+msgid "Customer"
+msgstr "顧客"
+
+msgid "Region"
+msgstr "地域"
+
+msgid "US"
+msgstr "US"
+
+msgid "🇺🇸 United States"
+msgstr "🇺🇸 アメリカ合衆国"
+
+msgid "🇪🇺 European Union"
+msgstr "🇪🇺 ヨーロッパ連合"
+
+msgid "🇬🇧 United Kingdom"
+msgstr "🇬🇧 イギリス"
+
+msgid "🇯🇵 日本"
+msgstr "🇯🇵 日本"
+
+msgid "Ledger Currency"
+msgstr "元帳通貨"
+
+msgid "USD"
+msgstr "USD"
+
+msgid "🇺🇸 $"
+msgstr "🇺🇸 $"
+
+msgid "🇪🇺 €"
+msgstr "🇪🇺 €"
+
+msgid "🇬🇧 £"
+msgstr "🇬🇧 £"
+
+msgid "🇯🇵 ¥"
+msgstr "🇯🇵 ¥"
+
+msgid "Payment Currency"
+msgstr "支払い通貨"
+
+msgid "🇦🇺 A$"
+msgstr "🇦🇺 A$"
+
+msgid "🇨🇭 CHF"
+msgstr "🇨🇭 CHF"
+
+msgid "🇩🇰 kr"
+msgstr "🇩🇰 kr"
+
+msgid "🇭🇰 HK$"
+msgstr "🇭🇰 HK$"
+
+msgid "🇳🇴 kr"
+msgstr "🇳🇴 kr"
+
+msgid "🇳🇿 NZ$"
+msgstr "🇳🇿 NZ$"
+
+msgid "🇸🇪 kr"
+msgstr "🇸🇪 kr"
+
+msgid "🇿🇦 R"
+msgstr "🇿🇦 R"
+
+msgid "$"
+msgstr "$"
+
+msgid "€"
+msgstr "€"
+
+msgid "£"
+msgstr "£"
+
+msgid "A$"
+msgstr "A$"
+
+msgid "CHF"
+msgstr "CHF"
+
+msgid "kr"
+msgstr "kr"
+
+msgid "HK$"
+msgstr "HK$"
+
+msgid "¥"
+msgstr "¥"
+
+msgid "NZ$"
+msgstr "NZ$"
+
+msgid "R"
+msgstr "R"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "en_US"
+msgstr "en_US"
+
+msgid "🇺🇸 English (US)"
+msgstr "🇺🇸 英語（アメリカ）"
+
+msgid "🇬🇧 English (UK)"
+msgstr "🇬🇧 英語（イギリス）"
+
+msgid "🇩🇪 Deutsch"
+msgstr "🇩🇪 ドイツ語"
+
+msgid "🇫🇷 Français"
+msgstr "🇫🇷 フランス語"
+
+msgid "🇮🇹 Italiano"
+msgstr "🇮🇹 イタリア語"
+
+msgid "🇪🇸 Español"
+msgstr "🇪🇸 スペイン語"
+
+msgid "🇯🇵 日本語"
+msgstr "🇯🇵 日本語"
+
+msgid "from"
+msgstr "から"
+
+msgid "Service Name..."
+msgstr "サービス名..."
+
+msgid "Creating \""
+msgstr "作成中 \""
+
+msgid "\"..."
+msgstr "\"..."
+
+msgid "Title"
+msgstr "タイトル"
+
+msgctxt "Post type general name"
+msgid "Services"
+msgstr "サービス"
+
+msgctxt "Post type singular name"
+msgid "Service"
+msgstr "サービス"
+
+msgctxt "Admin Menu text"
+msgid "Services"
+msgstr "サービス"
+
+msgctxt "Add New on Toolbar"
+msgid "Service"
+msgstr "サービスを追加"
+
+msgid "Parent & Order"
+msgstr "親 & 順序"
+
+msgid "Add New Service"
+msgstr "新しいサービスを追加"
+
+msgid "Service updated"
+msgstr "サービスが更新されました"
+
+msgid "New Service"
+msgstr "新しいサービス"
+
+msgid "Edit Service"
+msgstr "サービスを編集"
+
+msgid "View Service"
+msgstr "サービスを表示"
+
+msgid "All Services"
+msgstr "すべてのサービス"
+
+msgid "Search Services"
+msgstr "サービスを検索"
+
+msgid "Parent Services:"
+msgstr "親サービス:"
+
+msgid "No services found."
+msgstr "サービスが見つかりません。"
+
+msgid "No services found in Trash."
+msgstr "ゴミ箱にサービスが見つかりません。"
+
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Service Cover Image"
+msgstr "サービスのカバー画像"
+
+msgctxt "Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr "カバー画像を設定"
+
+msgctxt "Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr "カバー画像を削除"
+
+msgctxt "Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr "カバー画像として使用"
+
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "Service archives"
+msgstr "サービスアーカイブ"
+
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into service"
+msgstr "サービスに挿入"
+
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this service"
+msgstr "このサービスにアップロードされました"
+
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter services list"
+msgstr "サービスリストをフィルター"
+
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Services list navigation"
+msgstr "サービスリストナビゲーション"
+
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Services list"
+msgstr "サービスリスト"
+
+msgctxt "Post type general name"
+msgid "Payments"
+msgstr "支払い"
+
+msgctxt "Post type singular name"
+msgid "Payment"
+msgstr "支払い"
+
+msgctxt "Admin Menu text"
+msgid "Payments"
+msgstr "支払い"
+
+msgctxt "Add New on Toolbar"
+msgid "Payment"
+msgstr "支払いを追加"
+
+msgid "Add New Payment"
+msgstr "新しい支払いを追加"
+
+msgid "Payment updated"
+msgstr "支払いが更新されました"
+
+msgid "New Payment"
+msgstr "新しい支払い"
+
+msgid "Edit Payment"
+msgstr "支払いを編集"
+
+msgid "View Payment"
+msgstr "支払いを表示"
+
+msgid "All Payments"
+msgstr "すべての支払い"
+
+msgid "Search Payments"
+msgstr "支払いを検索"
+
+msgid "Parent Payments:"
+msgstr "親支払い:"
+
+msgid "No payments found."
+msgstr "支払いが見つかりません。"
+
+msgid "No payments found in Trash."
+msgstr "ゴミ箱に支払いが見つかりません。"
+
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Payment Cover Image"
+msgstr "支払いのカバー画像"
+
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "Payment archives"
+msgstr "支払いアーカイブ"
+
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into payment"
+msgstr "支払いに挿入"
+
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this payment"
+msgstr "この支払いにアップロードされました"
+
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter payments list"
+msgstr "支払いリストをフィルター"
+
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Payments list navigation"
+msgstr "支払いリストナビゲーション"
+
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Payments list"
+msgstr "支払いリスト"

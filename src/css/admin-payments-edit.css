@@ -1,0 +1,35 @@
+#customer dt {
+	font-weight: 700;
+	margin-right: 10px;
+	float: left;
+	clear: left;
+	min-width: 150px;
+}
+#customer dd {
+	margin-left: 0;
+}
+#customer dl h3 {
+	display: block;
+}
+#details dt {
+	display: block;
+	font-weight: 700;
+}
+#details dd {
+	display: block;
+	font-weight: 400;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+#details .help {
+	display: block;
+	font-color: rgba( 0, 0, 0, .4 );
+	font-style: italic;
+	padding-top: 5px;
+}
+#post-body-content {
+	display: none;
+}
+#submitdiv {
+	display:none;
+}
